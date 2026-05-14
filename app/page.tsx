@@ -1,7 +1,15 @@
 "use client";
 
+import { FleetPanel } from "@/components/dashboard/FleetPanel";
 import { useCurrentAct } from "@/lib/hooks/useCurrentAct";
 import { useCurrentDay } from "@/lib/hooks/useCurrentDay";
+import {
+  getGovernedSnapshot,
+  getIncidentsForDay,
+  getProjectsForDay,
+  getSimulation,
+  getUngovernedSnapshot,
+} from "@/lib/simulation";
 
 function DebugOverlay() {
   const act = useCurrentAct();
@@ -14,11 +22,30 @@ function DebugOverlay() {
   );
 }
 
+function DashboardScene() {
+  const { ungovernedDay } = useCurrentDay();
+  const simulation = getSimulation();
+  const snapshot = getUngovernedSnapshot(ungovernedDay);
+  const projects = getProjectsForDay(ungovernedDay);
+  const incidents = getIncidentsForDay(ungovernedDay, "ungoverned");
+
+  return (
+    <FleetPanel
+      side="ungoverned"
+      snapshot={snapshot}
+      currentDay={ungovernedDay}
+      projects={projects}
+      workers={simulation.workers}
+      incidents={incidents}
+      ungovernedSnapshots={simulation.ungoverned}
+    />
+  );
+}
+
 export default function Home() {
   return (
     <main className="relative bg-black text-white" style={{ minHeight: "500vh" }}>
       {/* TODO: Step 6 — Theatre.js cinematography (manual) */}
-      {/* Act 0 — Title (0–4%) */}
       <section
         id="act-0"
         className="pointer-events-none sticky top-0 z-10 flex h-screen items-center justify-center"
@@ -37,29 +64,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Scroll body — acts will be wired in subsequent steps */}
       <div className="relative z-20">
-        <section
-          id="act-1"
-          className="flex h-screen items-center justify-center border-t border-zinc-800"
-        >
-          <div className="text-center">
-            <p className="text-sm uppercase tracking-widest text-zinc-500">
-              Act 1 — Day 1
-            </p>
-            <p className="mt-2 text-xs text-zinc-600">Dashboard renders here (Step 4)</p>
-          </div>
-        </section>
-
-        <section
-          id="act-5"
-          className="flex h-screen items-center justify-center border-t border-zinc-800"
-        >
-          <div className="text-center">
-            <p className="text-sm uppercase tracking-widest text-red-500">
-              Act 5 — Day 21 Disaster
-            </p>
-            <p className="mt-2 text-xs text-zinc-600">Incident banner renders here (Step 4)</p>
+        <section id="fleet-dashboard" className="min-h-[360vh] border-t border-zinc-800 px-3 py-8 md:px-6">
+          <div className="sticky top-4 mx-auto max-w-7xl">
+            <DashboardScene />
           </div>
         </section>
 
