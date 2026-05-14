@@ -1,0 +1,296 @@
+[
+  {
+    "team": "Engineering",
+    "avatarSeed": "alex-c-001",
+    "id": "eng-001",
+    "display": "Alex C."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "jordan-l-003",
+    "id": "eng-003",
+    "display": "Jordan L."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "taylor-b-008",
+    "id": "eng-008",
+    "display": "Taylor B."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "river-m-012",
+    "id": "eng-012",
+    "display": "River M."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "chris-r-014",
+    "id": "eng-014",
+    "display": "Chris R."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "sable-q-016",
+    "id": "eng-016",
+    "display": "Sable Q."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "pax-d-018",
+    "id": "eng-018",
+    "display": "Pax D."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "sam-k-022",
+    "id": "eng-022",
+    "display": "Sam K."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "oberon-i-026",
+    "id": "eng-026",
+    "display": "Oberon I."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "drew-h-031",
+    "id": "eng-031",
+    "display": "Drew H."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "clio-w-033",
+    "id": "eng-033",
+    "display": "Clio W."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "rowan-c-039",
+    "id": "eng-039",
+    "display": "Rowan C."
+  },
+  {
+    "team": "Engineering",
+    "avatarSeed": "phoenix-y-045",
+    "id": "eng-045",
+    "display": "Phoenix Y."
+  },
+  {
+    "team": "Finance",
+    "avatarSeed": "jordan-m-003",
+    "id": "fin-003",
+    "display": "Jordan M."
+  },
+  {
+    "team": "Finance",
+    "avatarSeed": "sloane-t-007",
+    "id": "fin-007",
+    "display": "Sloane T."
+  },
+  {
+    "team": "Finance",
+    "avatarSeed": "avery-s-011",
+    "id": "fin-011",
+    "display": "Avery S."
+  },
+  {
+    "team": "Finance",
+    "avatarSeed": "bellamy-k-015",
+    "id": "fin-015",
+    "display": "Bellamy K."
+  },
+  {
+    "team": "Finance",
+    "avatarSeed": "reese-d-019",
+    "id": "fin-019",
+    "display": "Reese D."
+  },
+  {
+    "team": "Finance",
+    "avatarSeed": "luca-f-023",
+    "id": "fin-023",
+    "display": "Luca F."
+  },
+  {
+    "team": "Finance",
+    "avatarSeed": "harley-j-027",
+    "id": "fin-027",
+    "display": "Harley J."
+  },
+  {
+    "team": "Finance",
+    "avatarSeed": "marlowe-t-036",
+    "id": "fin-036",
+    "display": "Marlowe T."
+  },
+  {
+    "team": "Finance",
+    "avatarSeed": "remy-u-043",
+    "id": "fin-043",
+    "display": "Remy U."
+  },
+  {
+    "team": "Marketing",
+    "avatarSeed": "brandon-s-005",
+    "id": "mkt-005",
+    "display": "Brandon S."
+  },
+  {
+    "team": "Marketing",
+    "avatarSeed": "arlo-v-011",
+    "id": "mkt-011",
+    "display": "Arlo V."
+  },
+  {
+    "team": "Marketing",
+    "avatarSeed": "finley-g-016",
+    "id": "mkt-016",
+    "display": "Finley G."
+  },
+  {
+    "team": "Marketing",
+    "avatarSeed": "morgan-t-021",
+    "id": "mkt-021",
+    "display": "Morgan T."
+  },
+  {
+    "team": "Marketing",
+    "avatarSeed": "coda-n-025",
+    "id": "mkt-025",
+    "display": "Coda N."
+  },
+  {
+    "team": "Marketing",
+    "avatarSeed": "indigo-h-029",
+    "id": "mkt-029",
+    "display": "Indigo H."
+  },
+  {
+    "team": "Marketing",
+    "avatarSeed": "blake-n-033",
+    "id": "mkt-033",
+    "display": "Blake N."
+  },
+  {
+    "team": "Marketing",
+    "avatarSeed": "clio-f-037",
+    "id": "mkt-037",
+    "display": "Clio F."
+  },
+  {
+    "team": "Marketing",
+    "avatarSeed": "emerson-f-041",
+    "id": "mkt-041",
+    "display": "Emerson F."
+  },
+  {
+    "team": "Operations",
+    "avatarSeed": "rayne-w-005",
+    "id": "ops-005",
+    "display": "Rayne W."
+  },
+  {
+    "team": "Operations",
+    "avatarSeed": "riley-p-007",
+    "id": "ops-007",
+    "display": "Riley P."
+  },
+  {
+    "team": "Operations",
+    "avatarSeed": "quinn-r-014",
+    "id": "ops-014",
+    "display": "Quinn R."
+  },
+  {
+    "team": "Operations",
+    "avatarSeed": "vesper-k-020",
+    "id": "ops-020",
+    "display": "Vesper K."
+  },
+  {
+    "team": "Operations",
+    "avatarSeed": "lux-m-024",
+    "id": "ops-024",
+    "display": "Lux M."
+  },
+  {
+    "team": "Operations",
+    "avatarSeed": "skyler-v-028",
+    "id": "ops-028",
+    "display": "Skyler V."
+  },
+  {
+    "team": "Operations",
+    "avatarSeed": "cameron-z-035",
+    "id": "ops-035",
+    "display": "Cameron Z."
+  },
+  {
+    "team": "Operations",
+    "avatarSeed": "elliot-x-042",
+    "id": "ops-042",
+    "display": "Elliot X."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "dana-k-002",
+    "id": "data-002",
+    "display": "Dana K."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "idris-p-006",
+    "id": "data-006",
+    "display": "Idris P."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "casey-l-009",
+    "id": "data-009",
+    "display": "Casey L."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "zephyr-c-013",
+    "id": "data-013",
+    "display": "Zephyr C."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "parker-w-017",
+    "id": "data-017",
+    "display": "Parker W."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "sage-a-024",
+    "id": "data-024",
+    "display": "Sage A."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "nova-r-029",
+    "id": "data-029",
+    "display": "Nova R."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "lennox-o-031",
+    "id": "data-031",
+    "display": "Lennox O."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "wren-b-038",
+    "id": "data-038",
+    "display": "Wren B."
+  },
+  {
+    "team": "Data",
+    "avatarSeed": "timber-e-044",
+    "id": "data-044",
+    "display": "Timber E."
+  }
+]

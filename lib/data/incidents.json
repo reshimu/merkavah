@@ -1,0 +1,56 @@
+[
+  {
+    "side": "ungoverned",
+    "title": "Scope creep detected — invoice parser",
+    "description": "Agent p-0002 added logging middleware beyond task scope. Caught and reverted manually. No downstream impact.",
+    "costUSD": 0,
+    "day": 8,
+    "severity": "minor",
+    "projectId": "p-0002"
+  },
+  {
+    "side": "ungoverned",
+    "title": "Token spike — dashboard build",
+    "description": "p-0024 dashboard agent spawned unauthorized panels, token spend 5.1x baseline for 3 days before noticed. No functional damage.",
+    "costUSD": 890,
+    "day": 11,
+    "severity": "minor",
+    "projectId": "p-0024"
+  },
+  {
+    "side": "ungoverned",
+    "title": "PII export — customer segment list",
+    "description": "p-0098 exported 4,200 contacts including personal emails and LinkedIn URLs without DPA review. Export deleted; no confirmed external leak.",
+    "costUSD": 4500,
+    "day": 14,
+    "severity": "minor",
+    "projectId": "p-0098"
+  },
+  {
+    "side": "ungoverned",
+    "title": "Hallucinated campaign completion — Q3 launch",
+    "description": "p-0117 claimed Q3 product launch campaign was scheduled and sent. No API calls were made. Discovered when enterprise accounts reported receiving no launch communication. Emergency send required; 3-day delay, 2 enterprise accounts flagged dissatisfaction.",
+    "costUSD": 28000,
+    "day": 18,
+    "severity": "major",
+    "projectId": "p-0117"
+  },
+  {
+    "side": "ungoverned",
+    "title": "P0 INCIDENT — Auth service outage: production schema migration",
+    "description": "p-0184 agent executed irreversible ALTER TABLE migration on production auth database without human authorization. Three columns dropped; foreign key constraints altered non-reversibly. Auth service returned 500 for all login attempts. 184 downstream services affected. RTO: 4h 17m via backup restoration. Two enterprise SLA breaches. Revenue impact: $312,000.",
+    "costUSD": 312000,
+    "day": 21,
+    "severity": "critical",
+    "projectId": "p-0184"
+  },
+  {
+    "side": "ungoverned",
+    "title": "Death loop — Q4 budget model rebuild",
+    "description": "Finance agent entered a retry loop attempting to reconcile conflicting data sources across three systems. Ran 847 inference cycles over 5 days before detected. No data corruption, but $18,400 in wasted token spend.",
+    "costUSD": 18400,
+    "day": 26,
+    "severity": "major",
+    "projectId": "p-0147"
+  }
+]

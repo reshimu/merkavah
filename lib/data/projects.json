@@ -1,0 +1,998 @@
+[
+  {
+    "name": "Daily standup digest",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 1
+      }
+    ],
+    "id": "p-0001",
+    "worker": {
+      "team": "Engineering",
+      "avatarSeed": "alex-c-001",
+      "id": "eng-001",
+      "display": "Alex C."
+    },
+    "startDay": 1,
+    "tokensSpentCumulative": 2210,
+    "agentCount": 2,
+    "currentGoal": "Complete daily standup digest within original scope.",
+    "originalGoal": "Complete daily standup digest within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 1
+      }
+    ]
+  },
+  {
+    "name": "Invoice parser hardening",
+    "status": "SCOPE_CREEPING",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 1
+      },
+      {
+        "resolution": "altered",
+        "details": "Scope expansion requested Beiur before execution.",
+        "kind": "governance_intercept",
+        "beiurReportId": "br-p-0002",
+        "chayyah": "ARYEH",
+        "day": 2
+      }
+    ],
+    "id": "p-0002",
+    "worker": {
+      "team": "Finance",
+      "avatarSeed": "jordan-m-003",
+      "id": "fin-003",
+      "display": "Jordan M."
+    },
+    "startDay": 1,
+    "tokensSpentCumulative": 2620,
+    "agentCount": 3,
+    "currentGoal": "Complete invoice parser hardening within original scope.",
+    "originalGoal": "Complete invoice parser hardening within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 1
+      },
+      {
+        "kind": "scope_expanded",
+        "details": "Added logging middleware beyond the invoice parser task.",
+        "day": 8
+      }
+    ]
+  },
+  {
+    "name": "Support macro cleanup",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 1
+      }
+    ],
+    "id": "p-0003",
+    "worker": {
+      "team": "Operations",
+      "avatarSeed": "rayne-w-005",
+      "id": "ops-005",
+      "display": "Rayne W."
+    },
+    "startDay": 1,
+    "tokensSpentCumulative": 3030,
+    "agentCount": 2,
+    "currentGoal": "Complete support macro cleanup within original scope.",
+    "originalGoal": "Complete support macro cleanup within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 1
+      }
+    ]
+  },
+  {
+    "name": "Usage meter reconciliation",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 2
+      }
+    ],
+    "id": "p-0004",
+    "worker": {
+      "team": "Marketing",
+      "avatarSeed": "brandon-s-005",
+      "id": "mkt-005",
+      "display": "Brandon S."
+    },
+    "startDay": 2,
+    "tokensSpentCumulative": 3440,
+    "agentCount": 1,
+    "currentGoal": "Complete usage meter reconciliation within original scope.",
+    "originalGoal": "Complete usage meter reconciliation within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 2
+      }
+    ]
+  },
+  {
+    "name": "Content calendar importer",
+    "status": "COMPLETED",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 2
+      }
+    ],
+    "id": "p-0005",
+    "worker": {
+      "team": "Data",
+      "avatarSeed": "dana-k-002",
+      "id": "data-002",
+      "display": "Dana K."
+    },
+    "startDay": 2,
+    "tokensSpentCumulative": 3850,
+    "agentCount": 2,
+    "currentGoal": "Complete content calendar importer within original scope.",
+    "originalGoal": "Complete content calendar importer within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 2
+      }
+    ]
+  },
+  {
+    "name": "Lead enrichment cleanup",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 2
+      }
+    ],
+    "id": "p-0006",
+    "worker": {
+      "team": "Engineering",
+      "avatarSeed": "jordan-l-003",
+      "id": "eng-003",
+      "display": "Jordan L."
+    },
+    "startDay": 2,
+    "tokensSpentCumulative": 4260,
+    "agentCount": 1,
+    "currentGoal": "Complete lead enrichment cleanup within original scope.",
+    "originalGoal": "Complete lead enrichment cleanup within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 2
+      }
+    ]
+  },
+  {
+    "name": "Analytics event mapper",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 3
+      }
+    ],
+    "id": "p-0007",
+    "worker": {
+      "team": "Data",
+      "avatarSeed": "idris-p-006",
+      "id": "data-006",
+      "display": "Idris P."
+    },
+    "startDay": 3,
+    "tokensSpentCumulative": 4670,
+    "agentCount": 2,
+    "currentGoal": "Complete analytics event mapper within original scope.",
+    "originalGoal": "Complete analytics event mapper within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 3
+      }
+    ]
+  },
+  {
+    "name": "Internal search tuning",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 3
+      }
+    ],
+    "id": "p-0008",
+    "worker": {
+      "team": "Engineering",
+      "avatarSeed": "taylor-b-008",
+      "id": "eng-008",
+      "display": "Taylor B."
+    },
+    "startDay": 3,
+    "tokensSpentCumulative": 5080,
+    "agentCount": 1,
+    "currentGoal": "Complete internal search tuning within original scope.",
+    "originalGoal": "Complete internal search tuning within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 3
+      }
+    ]
+  },
+  {
+    "name": "Data retention audit",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 3
+      }
+    ],
+    "id": "p-0009",
+    "worker": {
+      "team": "Operations",
+      "avatarSeed": "riley-p-007",
+      "id": "ops-007",
+      "display": "Riley P."
+    },
+    "startDay": 3,
+    "tokensSpentCumulative": 5490,
+    "agentCount": 2,
+    "currentGoal": "Complete data retention audit within original scope.",
+    "originalGoal": "Complete data retention audit within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 3
+      }
+    ]
+  },
+  {
+    "name": "Billing exception queue",
+    "status": "COMPLETED",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 4
+      }
+    ],
+    "id": "p-0010",
+    "worker": {
+      "team": "Finance",
+      "avatarSeed": "sloane-t-007",
+      "id": "fin-007",
+      "display": "Sloane T."
+    },
+    "startDay": 4,
+    "tokensSpentCumulative": 5900,
+    "agentCount": 1,
+    "currentGoal": "Complete billing exception queue within original scope.",
+    "originalGoal": "Complete billing exception queue within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 4
+      }
+    ]
+  },
+  {
+    "name": "Webhook retry monitor",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 4
+      }
+    ],
+    "id": "p-0011",
+    "worker": {
+      "team": "Engineering",
+      "avatarSeed": "river-m-012",
+      "id": "eng-012",
+      "display": "River M."
+    },
+    "startDay": 4,
+    "tokensSpentCumulative": 6310,
+    "agentCount": 2,
+    "currentGoal": "Complete webhook retry monitor within original scope.",
+    "originalGoal": "Complete webhook retry monitor within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 4
+      }
+    ]
+  },
+  {
+    "name": "CSV import assistant",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 4
+      }
+    ],
+    "id": "p-0012",
+    "worker": {
+      "team": "Data",
+      "avatarSeed": "casey-l-009",
+      "id": "data-009",
+      "display": "Casey L."
+    },
+    "startDay": 4,
+    "tokensSpentCumulative": 6720,
+    "agentCount": 1,
+    "currentGoal": "Complete csv import assistant within original scope.",
+    "originalGoal": "Complete csv import assistant within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 4
+      }
+    ]
+  },
+  {
+    "name": "Churn cohort notebook",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 5
+      }
+    ],
+    "id": "p-0013",
+    "worker": {
+      "team": "Data",
+      "avatarSeed": "zephyr-c-013",
+      "id": "data-013",
+      "display": "Zephyr C."
+    },
+    "startDay": 5,
+    "tokensSpentCumulative": 7130,
+    "agentCount": 2,
+    "currentGoal": "Complete churn cohort notebook within original scope.",
+    "originalGoal": "Complete churn cohort notebook within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 5
+      }
+    ]
+  },
+  {
+    "name": "Sales deck localization",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 5
+      }
+    ],
+    "id": "p-0014",
+    "worker": {
+      "team": "Marketing",
+      "avatarSeed": "arlo-v-011",
+      "id": "mkt-011",
+      "display": "Arlo V."
+    },
+    "startDay": 5,
+    "tokensSpentCumulative": 7540,
+    "agentCount": 1,
+    "currentGoal": "Complete sales deck localization within original scope.",
+    "originalGoal": "Complete sales deck localization within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 5
+      }
+    ]
+  },
+  {
+    "name": "Ops checklist builder",
+    "status": "COMPLETED",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 5
+      }
+    ],
+    "id": "p-0015",
+    "worker": {
+      "team": "Operations",
+      "avatarSeed": "quinn-r-014",
+      "id": "ops-014",
+      "display": "Quinn R."
+    },
+    "startDay": 5,
+    "tokensSpentCumulative": 7950,
+    "agentCount": 2,
+    "currentGoal": "Complete ops checklist builder within original scope.",
+    "originalGoal": "Complete ops checklist builder within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 5
+      }
+    ]
+  },
+  {
+    "name": "Error budget reporter",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 6
+      }
+    ],
+    "id": "p-0016",
+    "worker": {
+      "team": "Engineering",
+      "avatarSeed": "chris-r-014",
+      "id": "eng-014",
+      "display": "Chris R."
+    },
+    "startDay": 6,
+    "tokensSpentCumulative": 8360,
+    "agentCount": 1,
+    "currentGoal": "Complete error budget reporter within original scope.",
+    "originalGoal": "Complete error budget reporter within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 6
+      }
+    ]
+  },
+  {
+    "name": "Forecast variance explainer",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 6
+      }
+    ],
+    "id": "p-0017",
+    "worker": {
+      "team": "Finance",
+      "avatarSeed": "avery-s-011",
+      "id": "fin-011",
+      "display": "Avery S."
+    },
+    "startDay": 6,
+    "tokensSpentCumulative": 8770,
+    "agentCount": 2,
+    "currentGoal": "Complete forecast variance explainer within original scope.",
+    "originalGoal": "Complete forecast variance explainer within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 6
+      }
+    ]
+  },
+  {
+    "name": "Trial account cleanup",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 6
+      }
+    ],
+    "id": "p-0018",
+    "worker": {
+      "team": "Operations",
+      "avatarSeed": "vesper-k-020",
+      "id": "ops-020",
+      "display": "Vesper K."
+    },
+    "startDay": 6,
+    "tokensSpentCumulative": 9180,
+    "agentCount": 1,
+    "currentGoal": "Complete trial account cleanup within original scope.",
+    "originalGoal": "Complete trial account cleanup within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 6
+      }
+    ]
+  },
+  {
+    "name": "Contract clause classifier",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 7
+      }
+    ],
+    "id": "p-0019",
+    "worker": {
+      "team": "Engineering",
+      "avatarSeed": "sable-q-016",
+      "id": "eng-016",
+      "display": "Sable Q."
+    },
+    "startDay": 7,
+    "tokensSpentCumulative": 9590,
+    "agentCount": 2,
+    "currentGoal": "Complete contract clause classifier within original scope.",
+    "originalGoal": "Complete contract clause classifier within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 7
+      }
+    ]
+  },
+  {
+    "name": "Incident runbook index",
+    "status": "COMPLETED",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 7
+      }
+    ],
+    "id": "p-0020",
+    "worker": {
+      "team": "Finance",
+      "avatarSeed": "bellamy-k-015",
+      "id": "fin-015",
+      "display": "Bellamy K."
+    },
+    "startDay": 7,
+    "tokensSpentCumulative": 10000,
+    "agentCount": 1,
+    "currentGoal": "Complete incident runbook index within original scope.",
+    "originalGoal": "Complete incident runbook index within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 7
+      }
+    ]
+  },
+  {
+    "name": "Knowledge base refresh",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 7
+      }
+    ],
+    "id": "p-0021",
+    "worker": {
+      "team": "Marketing",
+      "avatarSeed": "finley-g-016",
+      "id": "mkt-016",
+      "display": "Finley G."
+    },
+    "startDay": 7,
+    "tokensSpentCumulative": 10410,
+    "agentCount": 2,
+    "currentGoal": "Complete knowledge base refresh within original scope.",
+    "originalGoal": "Complete knowledge base refresh within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 7
+      }
+    ]
+  },
+  {
+    "name": "Feature flag inventory",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 8
+      }
+    ],
+    "id": "p-0022",
+    "worker": {
+      "team": "Engineering",
+      "avatarSeed": "pax-d-018",
+      "id": "eng-018",
+      "display": "Pax D."
+    },
+    "startDay": 8,
+    "tokensSpentCumulative": 10820,
+    "agentCount": 1,
+    "currentGoal": "Complete feature flag inventory within original scope.",
+    "originalGoal": "Complete feature flag inventory within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 8
+      }
+    ]
+  },
+  {
+    "name": "Dashboard build",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 8
+      }
+    ],
+    "id": "p-0023",
+    "worker": {
+      "team": "Data",
+      "avatarSeed": "parker-w-017",
+      "id": "data-017",
+      "display": "Parker W."
+    },
+    "startDay": 8,
+    "tokensSpentCumulative": 11230,
+    "agentCount": 2,
+    "currentGoal": "Complete dashboard build within original scope.",
+    "originalGoal": "Complete dashboard build within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 8
+      }
+    ]
+  },
+  {
+    "name": "Vendor renewal tracker",
+    "status": "SCOPE_CREEPING",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 8
+      },
+      {
+        "resolution": "altered",
+        "details": "Scope expansion requested Beiur before execution.",
+        "kind": "governance_intercept",
+        "beiurReportId": "br-p-0024",
+        "chayyah": "ARYEH",
+        "day": 9
+      }
+    ],
+    "id": "p-0024",
+    "worker": {
+      "team": "Marketing",
+      "avatarSeed": "morgan-t-021",
+      "id": "mkt-021",
+      "display": "Morgan T."
+    },
+    "startDay": 8,
+    "tokensSpentCumulative": 11640,
+    "agentCount": 3,
+    "currentGoal": "Complete vendor renewal tracker within original scope.",
+    "originalGoal": "Complete vendor renewal tracker within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 8
+      },
+      {
+        "kind": "tokens_spiked",
+        "details": "Spawned unauthorized dashboard panels and exceeded baseline token budget.",
+        "day": 11
+      }
+    ]
+  },
+  {
+    "name": "QA prompt evaluator",
+    "status": "COMPLETED",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized under governed mode.",
+        "day": 9
+      }
+    ],
+    "id": "p-0025",
+    "worker": {
+      "team": "Operations",
+      "avatarSeed": "lux-m-024",
+      "id": "ops-024",
+      "display": "Lux M."
+    },
+    "startDay": 9,
+    "tokensSpentCumulative": 12050,
+    "agentCount": 2,
+    "currentGoal": "Complete qa prompt evaluator within original scope.",
+    "originalGoal": "Complete qa prompt evaluator within original scope.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Project initialized by autonomous worker.",
+        "day": 9
+      }
+    ]
+  },
+  {
+    "name": "Deployment safety rail",
+    "status": "ON_TRACK",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Hero project initialized with Reshimu chain capture.",
+        "day": 12
+      },
+      {
+        "resolution": "approved",
+        "details": "Deployment mutation path approved after review.",
+        "kind": "beiur_resolved",
+        "beiurReportId": "br-p-0042",
+        "chayyah": "SHOR",
+        "day": 15
+      }
+    ],
+    "id": "p-0042",
+    "worker": {
+      "team": "Engineering",
+      "avatarSeed": "oberon-i-026",
+      "id": "eng-026",
+      "display": "Oberon I."
+    },
+    "startDay": 12,
+    "tokensSpentCumulative": 12400,
+    "agentCount": 2,
+    "currentGoal": "Add a preflight checklist for static export deployment readiness.",
+    "originalGoal": "Add a preflight checklist for static export deployment readiness.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Hero project initialized for release safety.",
+        "day": 12
+      }
+    ]
+  },
+  {
+    "name": "Customer segment list export",
+    "status": "SCOPE_CREEPING",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Marketing data export started under governed mode.",
+        "day": 10
+      },
+      {
+        "resolution": "altered",
+        "details": "PII-bearing export routed to Beiur and narrowed to approved fields.",
+        "kind": "governance_intercept",
+        "beiurReportId": "br-p-0098",
+        "chayyah": "PANIM_ADAM",
+        "day": 13
+      }
+    ],
+    "id": "p-0098",
+    "worker": {
+      "team": "Marketing",
+      "avatarSeed": "indigo-h-029",
+      "id": "mkt-029",
+      "display": "Indigo H."
+    },
+    "startDay": 10,
+    "tokensSpentCumulative": 24600,
+    "agentCount": 4,
+    "currentGoal": "Build a segmented customer export for campaign planning.",
+    "originalGoal": "Build a segmented customer export for campaign planning.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Marketing data export started.",
+        "day": 10
+      },
+      {
+        "kind": "irreversible_action_committed",
+        "details": "Export included personal emails and LinkedIn URLs without DPA review.",
+        "day": 14
+      }
+    ]
+  },
+  {
+    "name": "Q3 product launch campaign",
+    "status": "DRIFTING",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Launch campaign agent started under governed mode.",
+        "day": 13
+      },
+      {
+        "resolution": "denied",
+        "details": "Completion claim required evidence chain before acceptance.",
+        "kind": "governance_intercept",
+        "beiurReportId": "br-p-0117",
+        "chayyah": "NESHER",
+        "day": 17
+      }
+    ],
+    "id": "p-0117",
+    "worker": {
+      "team": "Marketing",
+      "avatarSeed": "blake-n-033",
+      "id": "mkt-033",
+      "display": "Blake N."
+    },
+    "startDay": 13,
+    "tokensSpentCumulative": 31800,
+    "agentCount": 5,
+    "currentGoal": "Schedule Q3 product launch campaign assets and sends.",
+    "originalGoal": "Schedule Q3 product launch campaign assets and sends.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Launch campaign agent started.",
+        "day": 13
+      },
+      {
+        "kind": "hallucinated_completion",
+        "details": "Agent claimed campaign was scheduled despite making no API calls.",
+        "day": 18
+      }
+    ]
+  },
+  {
+    "name": "Q4 budget model rebuild",
+    "status": "DEATH_LOOP",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Finance model rebuild started under governed mode.",
+        "day": 17
+      },
+      {
+        "resolution": "altered",
+        "details": "Conflicting source reconciliation required bounded retry plan.",
+        "kind": "governance_intercept",
+        "beiurReportId": "br-p-0147",
+        "chayyah": "SHOR",
+        "day": 20
+      }
+    ],
+    "id": "p-0147",
+    "worker": {
+      "team": "Finance",
+      "avatarSeed": "marlowe-t-036",
+      "id": "fin-036",
+      "display": "Marlowe T."
+    },
+    "startDay": 17,
+    "tokensSpentCumulative": 52900,
+    "agentCount": 6,
+    "currentGoal": "Rebuild the Q4 budget model from finance source systems.",
+    "originalGoal": "Rebuild the Q4 budget model from finance source systems.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Finance model rebuild started.",
+        "day": 17
+      },
+      {
+        "kind": "death_loop_entered",
+        "details": "Retry loop began while reconciling conflicting sources.",
+        "day": 22
+      },
+      {
+        "kind": "death_loop_detected",
+        "details": "Loop detected after 847 inference cycles.",
+        "day": 26
+      }
+    ]
+  },
+  {
+    "name": "Auth schema migration assistant",
+    "status": "BURNING_TOKENS",
+    "governedEvents": [
+      {
+        "kind": "started",
+        "details": "Auth migration assistant started under governed mode.",
+        "day": 18
+      },
+      {
+        "resolution": "denied",
+        "details": "Irreversible production schema change blocked pending Beiur.",
+        "kind": "governance_intercept",
+        "beiurReportId": "br-p-0184",
+        "chayyah": "ARYEH",
+        "day": 21
+      },
+      {
+        "kind": "halted",
+        "details": "Project halted before production mutation.",
+        "day": 21
+      }
+    ],
+    "id": "p-0184",
+    "worker": {
+      "team": "Engineering",
+      "avatarSeed": "phoenix-y-045",
+      "id": "eng-045",
+      "display": "Phoenix Y."
+    },
+    "startDay": 18,
+    "tokensSpentCumulative": 88400,
+    "agentCount": 7,
+    "currentGoal": "Prepare a reversible auth schema migration plan.",
+    "originalGoal": "Prepare a reversible auth schema migration plan.",
+    "ungovernedEvents": [
+      {
+        "kind": "started",
+        "details": "Auth migration assistant started.",
+        "day": 18
+      },
+      {
+        "kind": "irreversible_action_committed",
+        "details": "Executed production ALTER TABLE migration without human authorization.",
+        "day": 21
+      }
+    ]
+  }
+]
