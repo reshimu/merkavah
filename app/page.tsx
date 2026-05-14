@@ -1,6 +1,6 @@
 "use client";
 
-import { FleetPanel } from "@/components/dashboard/FleetPanel";
+import { PanelSplit } from "@/components/dashboard/PanelSplit";
 import { useCurrentAct } from "@/lib/hooks/useCurrentAct";
 import { useCurrentDay } from "@/lib/hooks/useCurrentDay";
 import {
@@ -23,21 +23,27 @@ function DebugOverlay() {
 }
 
 function DashboardScene() {
-  const { ungovernedDay } = useCurrentDay();
+  const act = useCurrentAct();
+  const { ungovernedDay, governedDay } = useCurrentDay();
   const simulation = getSimulation();
-  const snapshot = getUngovernedSnapshot(ungovernedDay);
-  const projects = getProjectsForDay(ungovernedDay);
-  const incidents = getIncidentsForDay(ungovernedDay, "ungoverned");
+  const governedPanelDay = governedDay ?? 1;
+  const ungovernedSnapshot = getUngovernedSnapshot(ungovernedDay);
+  const governedSnapshot = act >= 6 ? getGovernedSnapshot(governedPanelDay) : null;
 
   return (
-    <FleetPanel
-      side="ungoverned"
-      snapshot={snapshot}
-      currentDay={ungovernedDay}
-      projects={projects}
+    <PanelSplit
+      act={act}
+      ungovernedSnapshot={ungovernedSnapshot}
+      governedSnapshot={governedSnapshot}
+      ungovernedDay={ungovernedDay}
+      governedDay={governedDay}
+      ungovernedProjects={getProjectsForDay(ungovernedDay)}
+      governedProjects={getProjectsForDay(governedPanelDay)}
       workers={simulation.workers}
-      incidents={incidents}
+      ungovernedIncidents={getIncidentsForDay(ungovernedDay, "ungoverned")}
+      governedIncidents={getIncidentsForDay(governedPanelDay, "governed")}
       ungovernedSnapshots={simulation.ungoverned}
+      governedSnapshots={simulation.governed}
     />
   );
 }
@@ -65,19 +71,9 @@ export default function Home() {
       </section>
 
       <div className="relative z-20">
-        <section id="fleet-dashboard" className="min-h-[360vh] border-t border-zinc-800 px-3 py-8 md:px-6">
-          <div className="sticky top-4 mx-auto max-w-7xl">
+        <section id="fleet-dashboard" className="min-h-[430vh] border-t border-zinc-800 px-3 py-8 md:px-6">
+          <div className="sticky top-4 mx-auto max-w-[96rem]">
             <DashboardScene />
-          </div>
-        </section>
-
-        <section
-          id="act-6"
-          className="flex h-screen items-center justify-center border-t border-zinc-800"
-        >
-          <div className="text-center">
-            <p className="text-lg text-zinc-400">What if there had been governance?</p>
-            <p className="mt-2 text-xs text-zinc-600">Panel split renders here (Step 7)</p>
           </div>
         </section>
 
