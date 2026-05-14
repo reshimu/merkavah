@@ -3,6 +3,10 @@
 import type { Project, ProjectStatus } from "@/lib/domain";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
+import { GrayZonePII } from "@/components/case-studies/GrayZonePII";
+import { HallucinatedCompletion } from "@/components/case-studies/HallucinatedCompletion";
+import { IrreversibilityDisaster } from "@/components/case-studies/IrreversibilityDisaster";
+import { ScopeCreep } from "@/components/case-studies/ScopeCreep";
 import { cn } from "@/lib/utils";
 
 const HERO_IDS = new Set(["p-0042", "p-0098", "p-0117", "p-0184"]);
@@ -24,7 +28,15 @@ interface ProjectGridProps {
   side: "ungoverned" | "governed";
 }
 
-export function ProjectGrid({ projects, currentDay }: ProjectGridProps) {
+function HeroCaseStudy({ id, side, currentDay }: { id: string; side: "ungoverned" | "governed"; currentDay: number }) {
+  if (id === "p-0042") return <ScopeCreep side={side} currentDay={currentDay} />;
+  if (id === "p-0098") return <GrayZonePII side={side} currentDay={currentDay} />;
+  if (id === "p-0117") return <HallucinatedCompletion side={side} currentDay={currentDay} />;
+  if (id === "p-0184") return <IrreversibilityDisaster side={side} currentDay={currentDay} />;
+  return null;
+}
+
+export function ProjectGrid({ projects, currentDay, side }: ProjectGridProps) {
   return (
     <div className="rounded-lg border border-zinc-800 bg-zinc-950/70 p-3">
       <div className="mb-3 flex items-center justify-between">
@@ -40,7 +52,7 @@ export function ProjectGrid({ projects, currentDay }: ProjectGridProps) {
               className={cn(
                 "rounded-lg border py-3 transition-colors",
                 STATUS_STYLES[project.status],
-                isHero && "ring-2 ring-white/25"
+                isHero && "sm:col-span-2 xl:col-span-3 ring-2 ring-white/25"
               )}
             >
               <CardContent className="px-3">
@@ -54,6 +66,7 @@ export function ProjectGrid({ projects, currentDay }: ProjectGridProps) {
                   </Badge>
                 </div>
                 <p className="mt-3 truncate font-mono text-[0.62rem] uppercase tracking-[0.08em] text-current">{project.status.replaceAll("_", " ")}</p>
+                {isHero ? <HeroCaseStudy id={project.id} side={side} currentDay={currentDay} /> : null}
               </CardContent>
             </Card>
           );
