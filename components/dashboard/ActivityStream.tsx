@@ -1,4 +1,5 @@
 import type { Project, ProjectEvent } from "@/lib/domain";
+import { BeiurCard } from "./BeiurCard";
 
 interface ActivityStreamProps {
   projects: Project[];
@@ -10,6 +11,7 @@ interface ActivityItem {
   id: string;
   day: number;
   worker: string;
+  project: Project;
   event: ProjectEvent;
 }
 
@@ -23,6 +25,7 @@ export function ActivityStream({ projects, currentDay, side }: ActivityStreamPro
           id: `${project.id}-${side}-${event.day}-${event.kind}-${index}`,
           day: event.day,
           worker: project.worker.display,
+          project,
           event,
         }));
     })
@@ -34,12 +37,16 @@ export function ActivityStream({ projects, currentDay, side }: ActivityStreamPro
       <p className="mb-3 text-xs uppercase tracking-[0.22em] text-zinc-500">Activity Stream</p>
       <div className="space-y-2">
         {items.map((item) => (
-          <div key={item.id} className="rounded-md border border-zinc-800 bg-black/30 p-2">
-            <p className="font-mono text-[0.65rem] uppercase tracking-[0.12em] text-zinc-500">
-              Day {item.day} — {item.worker} · {item.event.kind.replaceAll("_", " ")}
-            </p>
-            <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-zinc-300">{item.event.details}</p>
-          </div>
+          item.event.kind === "beiur_filed" && side === "governed" ? (
+            <BeiurCard key={item.id} project={item.project} event={item.event} currentDay={currentDay} />
+          ) : (
+            <div key={item.id} className="rounded-md border border-zinc-800 bg-black/30 p-2">
+              <p className="font-mono text-[0.65rem] uppercase tracking-[0.12em] text-zinc-500">
+                Day {item.day} — {item.worker} · {item.event.kind.replaceAll("_", " ")}
+              </p>
+              <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-zinc-300">{item.event.details}</p>
+            </div>
+          )
         ))}
       </div>
     </div>

@@ -3,6 +3,7 @@ import { ActivityStream } from "./ActivityStream";
 import { DayCounter } from "./DayCounter";
 import { HeroMetrics } from "./HeroMetrics";
 import { IncidentBanner } from "./IncidentBanner";
+import { InterceptPulse } from "./InterceptPulse";
 import { ProjectGrid } from "./ProjectGrid";
 import { TokenBurnChart } from "./TokenBurnChart";
 import { WorkerRoster } from "./WorkerRoster";
@@ -29,7 +30,8 @@ export function FleetPanel({
   governedSnapshots,
 }: FleetPanelProps) {
   return (
-    <div className="w-full rounded-lg border border-zinc-800 bg-black/82 p-4 shadow-2xl shadow-black/60 backdrop-blur md:p-5">
+    <div className="relative w-full overflow-hidden rounded-lg border border-zinc-800 bg-black/82 p-4 shadow-2xl shadow-black/60 backdrop-blur md:p-5">
+      <InterceptPulse side={side} projects={projects} currentDay={currentDay} />
       <div className="mb-4 flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="text-xs uppercase tracking-[0.28em] text-zinc-500">Internal Agent Fleet</p>

@@ -1,5 +1,6 @@
 "use client";
 
+import { IncidentAlert } from "@/components/dashboard/IncidentAlert";
 import { PanelSplit } from "@/components/dashboard/PanelSplit";
 import { useCurrentAct } from "@/lib/hooks/useCurrentAct";
 import { useCurrentDay } from "@/lib/hooks/useCurrentDay";
@@ -20,6 +21,15 @@ function DebugOverlay() {
       Act {act} | Day {ungovernedDay} {governedDay !== null ? `| Gov ${governedDay}` : ""}
     </div>
   );
+}
+
+function CriticalIncidentOverlay() {
+  const { ungovernedDay } = useCurrentDay();
+  const incident = getIncidentsForDay(ungovernedDay, "ungoverned").find(
+    (item) => item.severity === "critical"
+  );
+
+  return <IncidentAlert incident={incident ?? null} currentDay={ungovernedDay} />;
 }
 
 function DashboardScene() {
@@ -89,6 +99,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <CriticalIncidentOverlay />
       <DebugOverlay />
     </main>
   );
